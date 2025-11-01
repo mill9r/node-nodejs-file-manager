@@ -1,0 +1,11 @@
+{
+  "name": "nodejs-file-manager",
+  "version": "1.0.0",
+  "description": "RS School file manager",
+  "license": "ISC",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  }
+}
