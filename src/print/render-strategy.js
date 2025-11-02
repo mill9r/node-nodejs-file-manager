@@ -3,6 +3,10 @@ const RENDERERS = {
 		console.log("Invalid input");
 	},
 
+	print: (input) => {
+		console.log(input);
+	},
+
 	table: (input) => {
 		console.table(input);
 	},
@@ -30,4 +34,5 @@ export const rendererStrategy = {
 	directory : context('directory'),
 	welcome : context('welcome'),
 	goodbye : context('goodbye'),
+	print: context('print')
 }
