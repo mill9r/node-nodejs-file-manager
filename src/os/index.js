@@ -33,6 +33,6 @@ const context = (input) => {
 }
 
 export const osResolver = strategy => {
-	const strategyKey = strategy?.replace('--', '');
-	context(strategyKey);
+	const strategyKey = strategy?.replace('--', '').toLowerCase();
+	return context(strategyKey);
 }
